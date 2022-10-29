@@ -24,7 +24,7 @@ x-superset-volumes: &superset-volumes
   - ./docker:/app/docker
   - ./superset:/app/superset
   - ./superset-frontend:/app/superset-frontend
-  - superset_home:/app/superset_home
+  - ./superset_home:/app/superset_home
   - ./tests:/app/tests
 
 version: "3.7"
@@ -60,7 +60,7 @@ services:
     depends_on: *superset-depends-on
     volumes: *superset-volumes
     environment:
-      CYPRESS_CONFIG: "${CYPRESS_CONFIG}"
+      CYPRESS_CONFIG: "true"
 
   superset-websocket:
     container_name: superset_websocket
@@ -99,7 +99,7 @@ services:
     user: *superset-user
     volumes: *superset-volumes
     environment:
-      CYPRESS_CONFIG: "${CYPRESS_CONFIG}"
+      CYPRESS_CONFIG: "true"
     healthcheck:
       disable: true
 
