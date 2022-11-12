@@ -78,7 +78,7 @@ mccabe==0.6.1
     # via pylint
 mypy-extensions==0.4.3
     # via typing-inspect
-oauthlib==3.1.1
+oauthlib==3.2.1
     # via requests-oauthlib
 openapi-schema-validator==0.1.5
     # via openapi-spec-validator
@@ -92,7 +92,7 @@ proto-plus==1.19.7
     # via
     #   google-cloud-bigquery
     #   google-cloud-bigquery-storage
-protobuf==3.19.1
+protobuf==3.19.5
     # via
     #   google-api-core
     #   google-cloud-bigquery
