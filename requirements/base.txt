@@ -220,7 +220,7 @@ pyyaml==5.4.1
     # via
     #   apache-superset
     #   apispec
-redis==3.5.3
+redis==4.3.6
     # via apache-superset
 selenium==3.141.0
     # via apache-superset
