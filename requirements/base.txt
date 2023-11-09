@@ -179,7 +179,7 @@ prison==0.2.1
     # via flask-appbuilder
 prompt-toolkit==3.0.28
     # via click-repl
-pyarrow==6.0.1
+pyarrow==14.0.1
     # via apache-superset
 pycparser==2.20
     # via cffi
