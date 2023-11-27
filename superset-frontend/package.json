@@ -86,7 +86,7 @@
     "@emotion/styled": "^11.3.0",
     "@fontsource/inter": "^4.0.0",
     "@superset-ui/chart-controls": "file:./packages/superset-ui-chart-controls",
-    "@superset-ui/core": "file:./packages/superset-ui-core",
+    "@superset-ui/core": "2.1.0",
     "@superset-ui/legacy-plugin-chart-calendar": "file:./plugins/legacy-plugin-chart-calendar",
     "@superset-ui/legacy-plugin-chart-chord": "file:./plugins/legacy-plugin-chart-chord",
     "@superset-ui/legacy-plugin-chart-country-map": "file:./plugins/legacy-plugin-chart-country-map",
