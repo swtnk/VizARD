@@ -120,7 +120,7 @@ holidays==0.16.0
     # via apache-superset
 humanize==3.11.0
     # via apache-superset
-idna==3.2
+idna==3.7
     # via email-validator
 isodate==0.6.0
     # via apache-superset
