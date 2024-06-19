@@ -258,7 +258,7 @@ tabulate==0.8.9
     # via apache-superset
 typing-extensions==4.4.0
     # via apache-superset
-urllib3==1.26.6
+urllib3==1.26.19
     # via selenium
 vine==5.0.0
     # via
