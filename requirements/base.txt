@@ -258,7 +258,7 @@ tabulate==0.8.9
     # via apache-superset
 typing-extensions==4.4.0
     # via apache-superset
-urllib3==1.26.6
+urllib3==2.6.3
     # via selenium
 vine==5.0.0
     # via
@@ -269,7 +269,7 @@ wcwidth==0.2.5
     # via prompt-toolkit
 webencodings==0.5.1
     # via bleach
-werkzeug==2.0.3
+werkzeug==3.1.5
     # via
     #   flask
     #   flask-jwt-extended
